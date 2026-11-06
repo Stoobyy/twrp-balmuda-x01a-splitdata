@@ -1,0 +1,14 @@
+# Custom split-data unit only. TWRP v1 format: flags use semicolons.
+# /data and /metadata follow the selected slot, never both at once.
+# mount point    fstype    device                                    flags
+/system_root     ext4      system                                    flags=display="System";logical;slotselect
+/system_ext      ext4      system_ext                                flags=display="System_ext";logical;slotselect
+/vendor          ext4      vendor                                    flags=display="Vendor";logical;slotselect
+/product         ext4      product                                   flags=display="Product";logical;slotselect
+/odm             ext4      odm                                       flags=display="ODM";logical;slotselect
+/metadata        ext4      /dev/block/by-name/metadata               flags=display="Metadata";slotselect
+/data            f2fs      /dev/block/bootdevice/by-name/userdata    flags=display="Data";wipeingui;slotselect
+/boot            emmc      /dev/block/bootdevice/by-name/boot        flags=display="Boot";backup=1;flashimg=1;slotselect
+/recovery        emmc      /dev/block/bootdevice/by-name/recovery    flags=display="Recovery";backup=1;flashimg=1;slotselect
+/dtbo            emmc      /dev/block/bootdevice/by-name/dtbo        flags=display="DTBO";backup=1;flashimg=1;slotselect
+/misc            emmc      /dev/block/bootdevice/by-name/misc        flags=display="Misc"

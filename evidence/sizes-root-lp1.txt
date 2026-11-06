@@ -1,0 +1,194 @@
+4096
+sda6
+69696
+32768
+sda22
+28736576
+105907136
+sda24
+134643712
+105905216
+sda25
+240551936
+32768
+sde11
+619568
+196608
+sde14
+816592
+196608
+sde34
+2071568
+196608
+sde37
+2268592
+196608
+Slot 1:
+Metadata version: 10.2
+Metadata size: 2004 bytes
+Metadata max size: 65536 bytes
+Metadata slot count: 3
+Header flags: virtual_ab_device
+Partition table:
+------------------------
+  Name: system_b
+  Group: qti_dynamic_partitions_b
+  Attributes: readonly
+  Extents:
+    0 .. 1827775 linear super 2048
+    1827776 .. 1927103 linear super 22587328
+    1927104 .. 2087871 linear super 1829824
+    2087872 .. 2192319 linear super 9356224
+    2192320 .. 2193343 linear super 9542592
+    2193344 .. 2293695 linear super 9571264
+    2293696 .. 2347967 linear super 22479808
+    2347968 .. 2517951 linear super 1990592
+    2517952 .. 3632063 linear super 2161600
+    3632064 .. 6054959 linear super 3277760
+------------------------
+  Name: vendor_b
+  Group: qti_dynamic_partitions_b
+  Attributes: readonly
+  Extents:
+    0 .. 1306559 linear super 7657472
+    1306560 .. 1306623 linear super 2160576
+    1306624 .. 1307711 linear super 3275712
+    1307712 .. 1307775 linear super 7657408
+    1307776 .. 1309887 linear super 8964032
+    1309888 .. 1320127 linear super 8969152
+    1320128 .. 1389999 linear super 9471936
+------------------------
+  Name: odm_b
+  Group: qti_dynamic_partitions_b
+  Attributes: readonly
+  Extents:
+    0 .. 2463 linear super 8966144
+------------------------
+  Name: system_b-cow
+  Group: cow
+  Attributes: none
+  Extents:
+    0 .. 2179207 linear super 9671680
+------------------------
+  Name: system_ext_b-cow
+  Group: cow
+  Attributes: none
+  Extents:
+    0 .. 588983 linear super 11851776
+------------------------
+  Name: product_b-cow
+  Group: cow
+  Attributes: none
+  Extents:
+    0 .. 88551 linear super 12441600
+------------------------
+  Name: vendor_b-cow
+  Group: cow
+  Attributes: none
+  Extents:
+    0 .. 579127 linear super 12530688
+------------------------
+  Name: odm_b-cow
+  Group: cow
+  Attributes: none
+  Extents:
+    0 .. 263 linear super 13110272
+------------------------
+  Name: system_a
+  Group: default
+  Attributes: none
+  Extents:
+    0 .. 63 linear super 9198528
+    64 .. 127 linear super 9460672
+    128 .. 191 linear super 9543616
+    192 .. 255 linear super 9671616
+    256 .. 319 linear super 11851712
+    320 .. 383 linear super 12441536
+    384 .. 447 linear super 12530624
+    448 .. 511 linear super 13110208
+    512 .. 2347831 linear super 13111232
+------------------------
+  Name: system_ext_a
+  Group: default
+  Attributes: none
+  Extents:
+    0 .. 1126575 linear super 15459264
+------------------------
+  Name: product_a
+  Group: default
+  Attributes: none
+  Extents:
+    0 .. 4499071 linear super 16586688
+------------------------
+  Name: vendor_a
+  Group: default
+  Attributes: none
+  Extents:
+    0 .. 1389999 linear super 21086144
+------------------------
+  Name: odm_a
+  Group: default
+  Attributes: none
+  Extents:
+    0 .. 2463 linear super 22476736
+------------------------
+Super partition layout:
+------------------------
+super: 2048 .. 1829824: system_b (1827776 sectors)
+super: 1829824 .. 1990592: system_b (160768 sectors)
+super: 1990592 .. 2160576: system_b (169984 sectors)
+super: 2160576 .. 2160640: vendor_b (64 sectors)
+super: 2161600 .. 3275712: system_b (1114112 sectors)
+super: 3275712 .. 3276800: vendor_b (1088 sectors)
+super: 3277760 .. 5700656: system_b (2422896 sectors)
+super: 7657408 .. 7657472: vendor_b (64 sectors)
+super: 7657472 .. 8964032: vendor_b (1306560 sectors)
+super: 8964032 .. 8966144: vendor_b (2112 sectors)
+super: 8966144 .. 8968608: odm_b (2464 sectors)
+super: 8969152 .. 8979392: vendor_b (10240 sectors)
+super: 9198528 .. 9198592: system_a (64 sectors)
+super: 9356224 .. 9460672: system_b (104448 sectors)
+super: 9460672 .. 9460736: system_a (64 sectors)
+super: 9471936 .. 9541808: vendor_b (69872 sectors)
+super: 9542592 .. 9543616: system_b (1024 sectors)
+super: 9543616 .. 9543680: system_a (64 sectors)
+super: 9571264 .. 9671616: system_b (100352 sectors)
+super: 9671616 .. 9671680: system_a (64 sectors)
+super: 9671680 .. 11850888: system_b-cow (2179208 sectors)
+super: 11851712 .. 11851776: system_a (64 sectors)
+super: 11851776 .. 12440760: system_ext_b-cow (588984 sectors)
+super: 12441536 .. 12441600: system_a (64 sectors)
+super: 12441600 .. 12530152: product_b-cow (88552 sectors)
+super: 12530624 .. 12530688: system_a (64 sectors)
+super: 12530688 .. 13109816: vendor_b-cow (579128 sectors)
+super: 13110208 .. 13110272: system_a (64 sectors)
+super: 13110272 .. 13110536: odm_b-cow (264 sectors)
+super: 13111232 .. 15458552: system_a (2347320 sectors)
+super: 15459264 .. 16585840: system_ext_a (1126576 sectors)
+super: 16586688 .. 21085760: product_a (4499072 sectors)
+super: 21086144 .. 22476144: vendor_a (1390000 sectors)
+super: 22476736 .. 22479200: odm_a (2464 sectors)
+super: 22479808 .. 22534080: system_b (54272 sectors)
+super: 22587328 .. 22686656: system_b (99328 sectors)
+------------------------
+Block device table:
+------------------------
+  Partition name: super
+  First sector: 2048
+  Size: 13958643712 bytes
+  Flags: none
+------------------------
+Group table:
+------------------------
+  Name: default
+  Maximum size: 0 bytes
+  Flags: none
+------------------------
+  Name: qti_dynamic_partitions_b
+  Maximum size: 6438256640 bytes
+  Flags: none
+------------------------
+  Name: cow
+  Maximum size: 0 bytes
+  Flags: none
+------------------------

@@ -1,0 +1,2 @@
+/dev/block/by-name/metadata_a /metadata ext4 rw,seclabel,nosuid,nodev,noatime,discard 0 0
+/dev/block/dm-13 /data f2fs rw,lazytime,seclabel,nosuid,nodev,noatime,background_gc=on,discard,no_heap,user_xattr,inline_xattr,acl,inline_data,inline_dentry,flush_merge,extent_cache,mode=adaptive,active_logs=6,reserve_root=25833,resuid=0,resgid=1065,inlinecrypt,alloc_mode=default,fsync_mode=nobarrier 0 0

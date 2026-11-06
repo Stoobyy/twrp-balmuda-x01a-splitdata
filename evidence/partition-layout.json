@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "captured_date": "2026-11-06",
+  "model": "X01A (converted A101BM)",
+  "source": "Live read-only GPT and sysfs, compared to slotdata-work/gpt; CRCs and both copies validated",
+  "sector_size": 4096,
+  "total_sectors": 30119936,
+  "active_slot_at_capture": "a",
+  "partitions": [
+    {
+      "number": 1,
+      "name": "ssd",
+      "start_lba": 6,
+      "end_lba": 7,
+      "sectors": 2,
+      "size_bytes": 8192,
+      "attributes": 0,
+      "node": "/dev/block/sda1"
+    },
+    {
+      "number": 3,
+      "name": "misc",
+      "start_lba": 8200,
+      "end_lba": 8455,
+      "sectors": 256,
+      "size_bytes": 1048576,
+      "attributes": 0,
+      "node": "/dev/block/sda3"
+    },
+    {
+      "number": 6,
+      "name": "metadata_a",
+      "start_lba": 8712,
+      "end_lba": 12807,
+      "sectors": 4096,
+      "size_bytes": 16777216,
+      "attributes": 1125899906842624,
+      "node": "/dev/block/sda6"
+    },
+    {
+      "number": 21,
+      "name": "super",
+      "start_lba": 184200,
+      "end_lba": 3592071,
+      "sectors": 3407872,
+      "size_bytes": 13958643712,
+      "attributes": 0,
+      "node": "/dev/block/sda21"
+    },
+    {
+      "number": 22,
+      "name": "userdata_a",
+      "start_lba": 3592072,
+      "end_lba": 16830463,
+      "sectors": 13238392,
+      "size_bytes": 54224453632,
+      "attributes": 1125899906842624,
+      "node": "/dev/block/sda22"
+    },
+    {
+      "number": 24,
+      "name": "userdata_b",
+      "start_lba": 16830464,
+      "end_lba": 30068615,
+      "sectors": 13238152,
+      "size_bytes": 54223470592,
+      "attributes": 0,
+      "node": "/dev/block/sda24"
+    },
+    {
+      "number": 25,
+      "name": "metadata_b",
+      "start_lba": 30068992,
+      "end_lba": 30073087,
+      "sectors": 4096,
+      "size_bytes": 16777216,
+      "attributes": 0,
+      "node": "/dev/block/sda25"
+    }
+  ],
+  "boot_partition_bytes": 100663296,
+  "recovery_partition_bytes": 100663296,
+  "super_group_max_bytes": 6438256640,
+  "gpt_attributes_note": "metadata_a and userdata_a now have bit 50 set (0x4000000000000); saved proposal had zero. Meaning not inferred; no changes made.",
+  "snapshot_note": "Both lpdump slots contain B COW partitions; active A /metadata/ota/snapshots directory empty. No merge/cleanup performed."
+}

@@ -1,0 +1,364 @@
+major minor  #blocks  name
+
+   1        0       8192 ram0
+   1        1       8192 ram1
+   1        2       8192 ram2
+   1        3       8192 ram3
+   1        4       8192 ram4
+   1        5       8192 ram5
+   1        6       8192 ram6
+   1        7       8192 ram7
+   1        8       8192 ram8
+   1        9       8192 ram9
+   1       10       8192 ram10
+   1       11       8192 ram11
+   1       12       8192 ram12
+   1       13       8192 ram13
+   1       14       8192 ram14
+   1       15       8192 ram15
+   7        0      36305 loop0
+   7        8      41533 loop1
+   7       16        880 loop2
+   7       24       8001 loop3
+   7       32     112076 loop4
+   7       40       1952 loop5
+   7       48        328 loop6
+   7       56      36305 loop7
+   7       64       2218 loop8
+   7       72       6860 loop9
+   7       80       8001 loop10
+   7       88     112076 loop11
+   7       96      41533 loop12
+   7      104        880 loop13
+   7      112       4080 loop14
+   7      120       5990 loop15
+ 254        0    3145728 zram0
+   8        0  120479744 sda
+   8        1          8 sda1
+   8        2      32768 sda2
+   8        3       1024 sda3
+   8        4        512 sda4
+   8        5        512 sda5
+   8        6      16384 sda6
+   8        7       8192 sda7
+   8        8       8192 sda8
+   8        9       8192 sda9
+   8       10      16384 sda10
+   8       11      61440 sda11
+   8       12      20480 sda12
+   8       13        512 sda13
+   8       14        512 sda14
+   8       15      65536 sda15
+ 259        0        512 sda16
+ 259        1     102400 sda17
+ 259        2     131072 sda18
+ 259        3     131072 sda19
+ 259        4     131072 sda20
+ 259        5   13631488 sda21
+ 259        6   52953568 sda22
+ 259        7       1024 sda23
+ 259        8   52952608 sda24
+ 259        9      16384 sda25
+   8       16       8192 sdb
+   8       17       3584 sdb1
+   8       18        128 sdb2
+   8       32       8192 sdc
+   8       33       3584 sdc1
+   8       34        128 sdc2
+   8       48     131072 sdd
+   8       49        104 sdd1
+   8       50        128 sdd2
+   8       51       1024 sdd3
+   8       64    4194304 sde
+   8       65        512 sde1
+   8       66       4096 sde2
+   8       67        512 sde3
+   8       68     199680 sde4
+   8       69       1024 sde5
+   8       70       4096 sde6
+   8       71      32768 sde7
+   8       72       1024 sde8
+   8       73      65536 sde9
+   8       74        512 sde10
+   8       75      98304 sde11
+   8       76        128 sde12
+   8       77         80 sde13
+   8       78      98304 sde14
+   8       79         64 sde15
+ 259       10         64 sde16
+ 259       11      24576 sde17
+ 259       12       2048 sde18
+ 259       13       2048 sde19
+ 259       14     174080 sde20
+ 259       15        128 sde21
+ 259       16         32 sde22
+ 259       17      16384 sde23
+ 259       18        512 sde24
+ 259       19       4096 sde25
+ 259       20        512 sde26
+ 259       21     199680 sde27
+ 259       22       1024 sde28
+ 259       23       4096 sde29
+ 259       24      32768 sde30
+ 259       25       1024 sde31
+ 259       26      65536 sde32
+ 259       27        512 sde33
+ 259       28      98304 sde34
+ 259       29        128 sde35
+ 259       30         80 sde36
+ 259       31      98304 sde37
+ 259       32         64 sde38
+ 259       33         64 sde39
+ 259       34      24576 sde40
+ 259       35        128 sde41
+ 259       36       2048 sde42
+ 259       37       2048 sde43
+ 259       38     174080 sde44
+ 259       39         32 sde45
+ 259       40          4 sde46
+ 259       41       1024 sde47
+ 259       42        256 sde48
+ 259       43       8192 sde49
+ 259       44      33424 sde50
+ 259       45          4 sde51
+ 259       46          4 sde52
+ 259       47       1024 sde53
+ 259       48       8192 sde54
+ 259       49       2048 sde55
+ 259       50      65536 sde56
+ 259       51        128 sde57
+ 259       52        512 sde58
+ 259       53      20480 sde59
+ 259       54         28 sde60
+ 259       55        512 sde61
+ 259       56       1024 sde62
+   8       80     131072 sdf
+   8       81        104 sdf1
+   8       82       2560 sdf2
+   8       83       2560 sdf3
+   8       84       2560 sdf4
+   8       85        128 sdf5
+ 253        0    3027480 dm-0
+ 253        1     695000 dm-1
+ 253        2       1232 dm-2
+ 253        3    1089604 dm-3
+ 253        4     294492 dm-4
+ 253        5      44276 dm-5
+ 253        6     289564 dm-6
+ 253        7        132 dm-7
+ 253        8    1173916 dm-8
+ 253        9     563288 dm-9
+ 253       10    2249536 dm-10
+ 253       11     695000 dm-11
+ 253       12       1232 dm-12
+   7      128      19500 loop16
+   7      136       8524 loop17
+   7      144      14260 loop18
+   7      152       7592 loop19
+   7      160       6096 loop20
+   7      168       2020 loop21
+   7      176       8792 loop22
+   7      184        876 loop23
+   7      192       4980 loop24
+   7      200        348 loop25
+   7      208      16688 loop26
+   7      216       5984 loop27
+   7      224      51492 loop28
+   7      232        836 loop29
+ 253       13   52953568 dm-13
+ 253       14       3932 dm-14
+ 253       15       5872 dm-15
+ 253       16      19212 dm-16
+ 253       17       8244 dm-17
+ 253       18      13988 dm-18
+ 253       19       7404 dm-19
+ 253       20       5872 dm-20
+ 253       21       1896 dm-21
+ 253       22       8560 dm-22
+ 253       23        776 dm-23
+ 253       24       4820 dm-24
+ 253       25        256 dm-25
+ 253       26      16396 dm-26
+ 253       27       5844 dm-27
+ 253       28      50952 dm-28
+ 253       29        728 dm-29
+brw------- 1 root root u:object_r:userdata_block_device:s0  259,   6 1970-02-05 11:37 /dev/block/sda22
+brw------- 1 root root u:object_r:userdata_block_device:s0  259,   8 1970-02-05 11:37 /dev/block/sda24
+brw------- 1 root root u:object_r:metadata_block_device:s0  259,   9 1970-02-05 11:37 /dev/block/sda25
+brw------- 1 root root u:object_r:metadata_block_device:s0    8,   6 1970-02-05 11:37 /dev/block/sda6
+total 0
+lrwxrwxrwx 1 root root 0 2026-11-06 20:05 sda22 -> ../../../../platform/soc/1d84000.ufshc/host0/target0:0:0/0:0:0:0/block/sda/sda22
+total 8
+drwx------ 2 root system 4096 1970-01-24 13:34 .
+drwx------ 3 root system 4096 2026-11-06 14:05 ..
+255
+/system/bin/lpdump
+Slot 0:
+Metadata version: 10.2
+Metadata size: 2004 bytes
+Metadata max size: 65536 bytes
+Metadata slot count: 3
+Header flags: virtual_ab_device
+Partition table:
+------------------------
+  Name: system_b
+  Group: qti_dynamic_partitions_b
+  Attributes: readonly
+  Extents:
+    0 .. 1827775 linear super 2048
+    1827776 .. 1927103 linear super 22587328
+    1927104 .. 2087871 linear super 1829824
+    2087872 .. 2192319 linear super 9356224
+    2192320 .. 2193343 linear super 9542592
+    2193344 .. 2293695 linear super 9571264
+    2293696 .. 2347967 linear super 22479808
+    2347968 .. 2517951 linear super 1990592
+    2517952 .. 3632063 linear super 2161600
+    3632064 .. 6054959 linear super 3277760
+------------------------
+  Name: vendor_b
+  Group: qti_dynamic_partitions_b
+  Attributes: readonly
+  Extents:
+    0 .. 1306559 linear super 7657472
+    1306560 .. 1306623 linear super 2160576
+    1306624 .. 1307711 linear super 3275712
+    1307712 .. 1307775 linear super 7657408
+    1307776 .. 1309887 linear super 8964032
+    1309888 .. 1320127 linear super 8969152
+    1320128 .. 1389999 linear super 9471936
+------------------------
+  Name: odm_b
+  Group: qti_dynamic_partitions_b
+  Attributes: readonly
+  Extents:
+    0 .. 2463 linear super 8966144
+------------------------
+  Name: system_b-cow
+  Group: cow
+  Attributes: none
+  Extents:
+    0 .. 2179207 linear super 9671680
+------------------------
+  Name: system_ext_b-cow
+  Group: cow
+  Attributes: none
+  Extents:
+    0 .. 588983 linear super 11851776
+------------------------
+  Name: product_b-cow
+  Group: cow
+  Attributes: none
+  Extents:
+    0 .. 88551 linear super 12441600
+------------------------
+  Name: vendor_b-cow
+  Group: cow
+  Attributes: none
+  Extents:
+    0 .. 579127 linear super 12530688
+------------------------
+  Name: odm_b-cow
+  Group: cow
+  Attributes: none
+  Extents:
+    0 .. 263 linear super 13110272
+------------------------
+  Name: system_a
+  Group: default
+  Attributes: none
+  Extents:
+    0 .. 63 linear super 9198528
+    64 .. 127 linear super 9460672
+    128 .. 191 linear super 9543616
+    192 .. 255 linear super 9671616
+    256 .. 319 linear super 11851712
+    320 .. 383 linear super 12441536
+    384 .. 447 linear super 12530624
+    448 .. 511 linear super 13110208
+    512 .. 2347831 linear super 13111232
+------------------------
+  Name: system_ext_a
+  Group: default
+  Attributes: none
+  Extents:
+    0 .. 1126575 linear super 15459264
+------------------------
+  Name: product_a
+  Group: default
+  Attributes: none
+  Extents:
+    0 .. 4499071 linear super 16586688
+------------------------
+  Name: vendor_a
+  Group: default
+  Attributes: none
+  Extents:
+    0 .. 1389999 linear super 21086144
+------------------------
+  Name: odm_a
+  Group: default
+  Attributes: none
+  Extents:
+    0 .. 2463 linear super 22476736
+------------------------
+Super partition layout:
+------------------------
+super: 2048 .. 1829824: system_b (1827776 sectors)
+super: 1829824 .. 1990592: system_b (160768 sectors)
+super: 1990592 .. 2160576: system_b (169984 sectors)
+super: 2160576 .. 2160640: vendor_b (64 sectors)
+super: 2161600 .. 3275712: system_b (1114112 sectors)
+super: 3275712 .. 3276800: vendor_b (1088 sectors)
+super: 3277760 .. 5700656: system_b (2422896 sectors)
+super: 7657408 .. 7657472: vendor_b (64 sectors)
+super: 7657472 .. 8964032: vendor_b (1306560 sectors)
+super: 8964032 .. 8966144: vendor_b (2112 sectors)
+super: 8966144 .. 8968608: odm_b (2464 sectors)
+super: 8969152 .. 8979392: vendor_b (10240 sectors)
+super: 9198528 .. 9198592: system_a (64 sectors)
+super: 9356224 .. 9460672: system_b (104448 sectors)
+super: 9460672 .. 9460736: system_a (64 sectors)
+super: 9471936 .. 9541808: vendor_b (69872 sectors)
+super: 9542592 .. 9543616: system_b (1024 sectors)
+super: 9543616 .. 9543680: system_a (64 sectors)
+super: 9571264 .. 9671616: system_b (100352 sectors)
+super: 9671616 .. 9671680: system_a (64 sectors)
+super: 9671680 .. 11850888: system_b-cow (2179208 sectors)
+super: 11851712 .. 11851776: system_a (64 sectors)
+super: 11851776 .. 12440760: system_ext_b-cow (588984 sectors)
+super: 12441536 .. 12441600: system_a (64 sectors)
+super: 12441600 .. 12530152: product_b-cow (88552 sectors)
+super: 12530624 .. 12530688: system_a (64 sectors)
+super: 12530688 .. 13109816: vendor_b-cow (579128 sectors)
+super: 13110208 .. 13110272: system_a (64 sectors)
+super: 13110272 .. 13110536: odm_b-cow (264 sectors)
+super: 13111232 .. 15458552: system_a (2347320 sectors)
+super: 15459264 .. 16585840: system_ext_a (1126576 sectors)
+super: 16586688 .. 21085760: product_a (4499072 sectors)
+super: 21086144 .. 22476144: vendor_a (1390000 sectors)
+super: 22476736 .. 22479200: odm_a (2464 sectors)
+super: 22479808 .. 22534080: system_b (54272 sectors)
+super: 22587328 .. 22686656: system_b (99328 sectors)
+------------------------
+Block device table:
+------------------------
+  Partition name: super
+  First sector: 2048
+  Size: 13958643712 bytes
+  Flags: none
+------------------------
+Group table:
+------------------------
+  Name: default
+  Maximum size: 0 bytes
+  Flags: none
+------------------------
+  Name: qti_dynamic_partitions_b
+  Maximum size: 6438256640 bytes
+  Flags: none
+------------------------
+  Name: cow
+  Maximum size: 0 bytes
+  Flags: none
+------------------------

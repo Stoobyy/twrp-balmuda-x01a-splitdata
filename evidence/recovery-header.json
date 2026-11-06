@@ -1,0 +1,38 @@
+{
+  "header_version": 2,
+  "page_size": 4096,
+  "kernel_addr": 32768,
+  "ramdisk_addr": 16777216,
+  "tags_addr": 256,
+  "dtb_addr": 32505856,
+  "cmdline": "console=ttyMSM0,115200,n8 earlycon=msm_geni_serial,0x888000 androidboot.hardware=qcom androidboot.console=ttyMSM0 androidboot.memcg=1 lpm_levels.sleep_disabled=1 video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 service_locator.enable=1 androidboot.usbcontroller=a600000.dwc3 swiotlb=2048 cgroup.memory=nokmem,nosocket loop.max_part=7 buildvariant=user",
+  "os_version": "11.0.0",
+  "security_patch": "2023-02-01",
+  "prebuilts": [
+    {
+      "name": "kernel",
+      "size_bytes": 39647248,
+      "sha256": "645471cbc37283255c8689208de13f55f3a1d5466c0e96f5d1bee1a62667ce75",
+      "generic_sha256": "8f6a61e30fc4ef014d8929418364fa59527d13e9449a2205d1ad3fbadd931cde",
+      "matches_live_recovery_b": true,
+      "matches_generic": false
+    },
+    {
+      "name": "dtbo.img",
+      "size_bytes": 5817225,
+      "sha256": "eb9f1d5a15c6f36d8438d7f264943c2621304c7a8fcc017bc583526c5334b89b",
+      "generic_sha256": "182b98f0783ebc6e0490cd4f4f48cbed9c1303bb0448fd2fb6c8426d70652130",
+      "matches_live_recovery_b": true,
+      "matches_generic": false
+    },
+    {
+      "name": "dtb.img",
+      "size_bytes": 2023379,
+      "sha256": "7df9aa8c388654d3c75922ee34a279e458d1095ca5ab07ff9828c8998b2e997c",
+      "generic_sha256": "7ace18d9351dc5f65bd91c45e515ab40a2d6f73e66ae3a0240098557e1d3ae98",
+      "matches_live_recovery_b": true,
+      "matches_generic": false
+    }
+  ],
+  "source": "Extracted directly from live recovery_b; all three differ from generic prebuilts"
+}

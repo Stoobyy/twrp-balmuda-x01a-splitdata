@@ -1,0 +1,20 @@
+{
+  "path": "D:\\Balmuda\\twrp-build\\repo",
+  "head": "0d8d8c3e57246db50995ee2036afd45b0d845d3c",
+  "remote": "https://github.com/Stoobyy/twrp-balmuda-x01a.git",
+  "files": {
+    "Android.bp": "301b1a2207c354a68c41d009c3e97696a050f31a4617ee2d1d7560b48621da70",
+    "Android.mk": "29ef88e7e550da996c3427f74ddb8a633012d8e81bb9c08a40b90e8e2601bcd7",
+    "AndroidProducts.mk": "2e2826af2c897c4dd58d873a939212dfc9f7fb1b54c0eee5c3d39239b494f0fb",
+    "BoardConfig.mk": "9a1f72e3f89c4a32356e4bd20b90787b1a81c4d6fac1648a052d8b456d6a916b",
+    "device.mk": "a09eb4c921194171c2979bea283d512f8923346039369dc575bc38655f659be3",
+    "README.md": "2cea569b8e9e545dbf6ede3783e32702986280fd20f81c2bd0509606a3e9711a",
+    "recovery.fstab": "9e4f4b489fa593019baf7d28489f193c08dc9b4a5d6678c2e2b3ea1426eccad1",
+    "twrp_X01A.mk": "5a1e3bc950f47b76e35604cdd5dec959c858d4d2f8d74d39a254b87ab35e6c34",
+    "prebuilt/dtb.img": "7ace18d9351dc5f65bd91c45e515ab40a2d6f73e66ae3a0240098557e1d3ae98",
+    "prebuilt/dtbo.img": "182b98f0783ebc6e0490cd4f4f48cbed9c1303bb0448fd2fb6c8426d70652130",
+    "prebuilt/kernel": "8f6a61e30fc4ef014d8929418364fa59527d13e9449a2205d1ad3fbadd931cde",
+    "recovery/root/init.recovery.qcom.rc": "c00232849ced3afc41203618fb7c7883b3846187f2d2a017b816608246ba3bd8",
+    ".github/workflows/build.yml": "4ffb5b7352579f09d97b031bf699dbc3213a3c61603049737c885435112c61cc"
+  }
+}
